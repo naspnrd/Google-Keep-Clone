@@ -1,0 +1,36 @@
+.search-input {
+  width: 90%;
+  padding: 2px 4px;
+  height: 48px;
+  font-size: 16px;
+  color: inherit;
+}
+
+.search-input::placeholder {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+.search-input-light::placeholder {
+  color: #414141;
+  font-weight: bold;
+}
+
+.search-component {
+  display: flex;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.search-component-dark {
+  background-color: #666666;
+}
+
+.search-component-light {
+  background-color: #cfcfcf;
+}
+
+.search-icon {
+  align-self: center;
+  margin: 0px 8px;
+}

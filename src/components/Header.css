@@ -1,0 +1,40 @@
+.header {
+  padding: 8px;
+  background-color: inherit;
+  position: relative;
+  top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icon {
+  display: flex;
+  flex: 2;
+  align-items: center;
+}
+
+.hamburger {
+  margin: 16px;
+}
+
+.icon-title {
+  display: none;
+  font-weight: bold;
+}
+
+.search-box {
+  flex: 7;
+  display: flex;
+}
+
+.action-area {
+  flex: 3;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 720px) {
+  .icon-title {
+    display: block;
+  }
+}

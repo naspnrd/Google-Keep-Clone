@@ -1,0 +1,48 @@
+.navbar {
+  flex: 2;
+  padding: 16px 0px;
+  transform: translateX(0px);
+  transition: width 0.1s ease, transform 0.25s ease-in-out 0.1s;
+}
+
+.navbar-hidden {
+  transform: translateX(-300px);
+  transition: transform 0.25s ease-in-out, width 0.2s ease 0.25s;
+  width: 0px;
+  flex: 0;
+}
+
+.list-item {
+  display: flex;
+  margin: 8px 0px;
+}
+
+.list-item-active,
+.list-item:hover {
+  background-color: #7986cb;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.list-icon {
+  margin: 16px;
+}
+
+.list-title {
+  align-self: center;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 775px) {
+  .navbar {
+    position: absolute;
+    top: 0px;
+    width: 300px;
+    background-color: #333842;
+    z-index: 10;
+    height: 90vh;
+  }
+
+  .navbar-light {
+    background-color: #f5f5f5;
+  }
+}
