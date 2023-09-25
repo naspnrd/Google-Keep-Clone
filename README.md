@@ -1,4 +1,4 @@
-A light weight clone of Google Keep [Live](https://rohanoid5.github.io/google-keep).
+A light weight clone of Google Keep [Live]().
 
 ## Available Scripts
 
