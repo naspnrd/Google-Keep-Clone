@@ -1,9 +1,11 @@
 const notes = [];
 const filter = {
-  noteTitleFilter: ''
+  noteTitleFilter: "",
 };
 
-export default {
+const initialState = {
   notes,
-  filter
+  filter,
 };
+
+export default initialState;
